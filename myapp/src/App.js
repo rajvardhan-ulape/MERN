@@ -1,9 +1,9 @@
 import React from "react";
-import "./RegistrationForm.css";
+import styles from './test1.module.css';
 
 const RegistrationForm = () => {
   return (
-    <div className="form-container" style={{color:'red',fontSize:'14px'}}>
+    <div className="form-container" className={styles}>
       <h2>Student Registration Form</h2>
       <form>
         <label htmlFor="name">Full Name:</label>
