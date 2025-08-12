@@ -3,7 +3,7 @@ import "./RegistrationForm.css";
 
 const RegistrationForm = () => {
   return (
-    <div className="form-container">
+    <div className="form-container" style={{color:'red',fontSize:'14px'}}>
       <h2>Student Registration Form</h2>
       <form>
         <label htmlFor="name">Full Name:</label>
