@@ -1,17 +1,22 @@
 import React from "react";
 import "./Hero.css";
+import campusImg from "../images/campus.jpg";
 
-export default function Hero() {
+
+function Hero() {
   return (
-    <section className="hero">
-      <div className="hero-overlay">
-        <h1>Welcome to DYPCET</h1>
-        <p>Empowering Education for the Future</p>
-        <div className="hero-buttons">
-          <a href="/apply" className="btn">Apply Now</a>
-          <a href="/brochure.pdf" className="btn btn-outline">Download Brochure</a>
-        </div>
-      </div>
-    </section>
+    <div
+      className="hero"
+      style={{
+        backgroundImage: `url(${campusImg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        height: "500px"
+      }}
+    >
+      <h1>Welcome to Our Campus</h1>
+    </div>
   );
 }
+
+export default Hero;
