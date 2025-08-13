@@ -1,20 +1,17 @@
 import React from "react";
 import "./Hero.css";
-import campusImg from "../images/campus.jpg";
-
 
 function Hero() {
   return (
     <div
       className="hero"
       style={{
-        backgroundImage: `url(${campusImg})`,
+        backgroundImage: `url(https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/Slider-1-2-1-scaled.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "500px"
       }}
     >
-      <h1>Welcome to Our Campus</h1>
     </div>
   );
 }

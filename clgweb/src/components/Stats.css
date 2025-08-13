@@ -2,10 +2,28 @@
   display: flex;
   margin-top: 50px;
   justify-content: space-around;
-  padding: 40px;
+  align-items: center;   /* centers stat cards vertically */
+  height: 150px;         /* smaller bar height */
   background: #ff6600;
+  width: 90%;            /* smaller bar width */
+  margin-left: auto;     /* centers bar horizontally */
+  margin-right: auto;
+  border-radius: 10px;   /* smooth edges */
+  padding: 0;            /* no extra padding since height is fixed */
+}
+
+.stat-card {
+  background: white;
+  border-radius: 8px;
+  width: 100px;          /* smaller card width */
+  height: 90px;         /* smaller card height */
+  padding: 10px;         /* reduced padding */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .stat-card h2 {
-  color: #f5f5f5;
+  color: #000000;
 }
