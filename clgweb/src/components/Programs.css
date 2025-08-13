@@ -1,0 +1,17 @@
+.programs {
+  padding: 50px;
+  text-align: center;
+}
+
+.program-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.program-card {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
