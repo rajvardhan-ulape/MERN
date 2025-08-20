@@ -13,6 +13,7 @@ function Programs() {
           />
           <h3>Computer Science</h3>
         </div>
+
         <div className="program-card">
           <img 
             src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/Industry-Visit-to-Kasturi-Foundry.jpg" 
@@ -20,12 +21,36 @@ function Programs() {
           />
           <h3>Mechanical</h3>
         </div>
+
         <div className="program-card">
           <img 
             src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/3-1-1-1-scaled.jpg" 
             alt="Electrical"
           />
           <h3>Electrical</h3>
+        </div>
+
+        <div className="program-card">
+          <img 
+            src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/IMG-20250313-WA0026.jpg" 
+            alt="Chemical" 
+          />
+          <h3>Chemical</h3>
+        </div>
+
+        <div className="program-card">
+          <img 
+            src="https://doak.dypgroup.edu.in/wp-content/uploads/2020/08/slide-5.jpg" 
+            alt="Architecture" 
+          />
+          <h3>Architecture</h3>
+        </div>
+        <div className="program-card">
+          <img 
+            src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/civil1-scaled.jpg" 
+            alt="Civil" 
+          />
+          <h3>Civil</h3>
         </div>
       </div>
     </div>
