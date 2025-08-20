@@ -1,24 +1,35 @@
 import React from "react";
 import "./Programs.css";
 
-export default function Programs() {
-  const programs = [
-    { title: "Computer Engineering", image: "/images/computer.jpg" },
-    { title: "Mechanical Engineering", image: "/images/mechanical.jpg" },
-    { title: "Electronics Engineering", image: "/images/electronics.jpg" },
-  ];
-
+function Programs() {
   return (
-    <section className="programs">
-      <h2>Our Programs</h2>
+    <div className="programs">
+      <h2>Our Departments</h2>
       <div className="program-grid">
-        {programs.map((prog, i) => (
-          <div key={i} className="program-card">
-            <img src={prog.image} alt={prog.title} />
-            <h3>{prog.title}</h3>
-          </div>
-        ))}
+        <div className="program-card">
+          <img 
+            src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/Alumni-Meet-2-scaled.jpg" 
+            alt="Computer Science" 
+          />
+          <h3>Computer Science</h3>
+        </div>
+        <div className="program-card">
+          <img 
+            src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/Industry-Visit-to-Kasturi-Foundry.jpg" 
+            alt="Mechanical" 
+          />
+          <h3>Mechanical</h3>
+        </div>
+        <div className="program-card">
+          <img 
+            src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/3-1-1-1-scaled.jpg" 
+            alt="Electrical"
+          />
+          <h3>Electrical</h3>
+        </div>
       </div>
-    </section>
+    </div>
   );
 }
+
+export default Programs;
