@@ -19,7 +19,7 @@ function Programs() {
             src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/Industry-Visit-to-Kasturi-Foundry.jpg" 
             alt="Mechanical" 
           />
-          <h3>Mechanical</h3>
+          <h3>Mechanical Engineering</h3>
         </div>
 
         <div className="program-card">
@@ -27,7 +27,7 @@ function Programs() {
             src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/3-1-1-1-scaled.jpg" 
             alt="Electrical"
           />
-          <h3>Electrical</h3>
+          <h3>Electrical Engineering</h3>
         </div>
 
         <div className="program-card">
@@ -35,7 +35,7 @@ function Programs() {
             src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/IMG-20250313-WA0026.jpg" 
             alt="Chemical" 
           />
-          <h3>Chemical</h3>
+          <h3>Chemical Engineering</h3>
         </div>
 
         <div className="program-card">
@@ -50,7 +50,7 @@ function Programs() {
             src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/civil1-scaled.jpg" 
             alt="Civil" 
           />
-          <h3>Civil</h3>
+          <h3>Civil Engineering </h3>
         </div>
       </div>
     </div>

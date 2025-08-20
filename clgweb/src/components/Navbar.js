@@ -11,6 +11,7 @@ function Navbar() {
         <li><a href="#courses">Courses</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <button className="apply-btn">Apply Now</button>
     </nav>
   );
 }

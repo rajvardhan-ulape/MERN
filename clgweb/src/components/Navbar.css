@@ -7,7 +7,7 @@
 }
 
 .logo {
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-size: 24px;
   font-weight: bold;
 }
@@ -19,11 +19,28 @@
 }
 
 .nav-links li a {
-  color: rgb(255, 255, 255);
+  color: #fff;
   text-decoration: none;
   font-size: 16px;
 }
 
 .nav-links li a:hover {
   color: #ff6600;
+}
+
+/* Apply Now button */
+.apply-btn {
+  background-color: #ff6600;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: #e65c00;
 }
