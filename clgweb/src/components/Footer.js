@@ -10,21 +10,21 @@ function Footer() {
       <p>© 2025 DYPCET. All rights reserved.</p>
       <div className="footer-icons">
         <a 
-          href="https://www.instagram.com/dypcet_official/"  // ✅ Fixed link
+          href="https://www.instagram.com/dypcet_official/" 
           target="_blank" 
           rel="noreferrer"
         >
           <InstagramIcon style={{ color: "#000000ff", fontSize: "30px" }} />
         </a>
         <a 
-          href="https://www.facebook.com/dypcetkolhapur"  // ✅ Correct link
+          href="https://www.facebook.com/dypcetkolhapur"  
           target="_blank" 
           rel="noreferrer"
         >
           <FacebookIcon style={{ color: "#000000ff", fontSize: "30px" }} />
         </a>
         <a 
-          href="https://www.youtube.com/channel/UC2y2iZBh2FJA-gmm_41UnMw/"  // ✅ Correct link
+          href="https://www.youtube.com/channel/UC2y2iZBh2FJA-gmm_41UnMw/"  
           target="_blank" 
           rel="noreferrer"
         >
