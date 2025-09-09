@@ -1,0 +1,16 @@
+.footer {
+  background: #0056b3;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer-icons {
+  margin-top: 10px;
+}
+
+.footer-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+}

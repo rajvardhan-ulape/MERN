@@ -1,8 +1,9 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/hero";
+import Hero from "./components/Hero";
 import Stats from "./components/Stats";
 import Programs from "./components/Programs";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Hero />
       <Stats />
       <Programs />
-      {/* Later add Placements, CampusLife, NewsEvents, Footer */}
+      <Footer />
     </>
   );
 }
