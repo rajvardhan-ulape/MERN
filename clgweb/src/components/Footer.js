@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import FacebookIcon from "@mui/icons-material/Facebook";  // ✅ Correct import
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
 function Footer() {
@@ -10,25 +10,25 @@ function Footer() {
       <p>© 2025 DYPCET. All rights reserved.</p>
       <div className="footer-icons">
         <a 
-          href="https://https://www.instagram.com/dypcet_official/"  // ✅ Replace with college Insta
+          href="https://www.instagram.com/dypcet_official/"  // ✅ Fixed link
           target="_blank" 
           rel="noreferrer"
         >
-          <InstagramIcon style={{ color: "#E1306C", fontSize: "30px" }} />
+          <InstagramIcon style={{ color: "#000000ff", fontSize: "30px" }} />
         </a>
         <a 
-          href="https://www.facebook.com/dypcetkolhapur"  // ✅ Replace with college LinkedIn
+          href="https://www.facebook.com/dypcetkolhapur"  // ✅ Correct link
           target="_blank" 
           rel="noreferrer"
         >
-          <LinkedInIcon style={{ color: "#0077b5", fontSize: "30px" }} />
+          <FacebookIcon style={{ color: "#000000ff", fontSize: "30px" }} />
         </a>
         <a 
-          href="https://www.youtube.com/channel/UC2y2iZBh2FJA-gmm_41UnMw/"  // ✅ Replace with college YouTube
+          href="https://www.youtube.com/channel/UC2y2iZBh2FJA-gmm_41UnMw/"  // ✅ Correct link
           target="_blank" 
           rel="noreferrer"
         >
-          <YouTubeIcon style={{ color: "red", fontSize: "30px" }} />
+          <YouTubeIcon style={{ color: "#000000ff", fontSize: "30px" }} />
         </a>
       </div>
     </footer>
