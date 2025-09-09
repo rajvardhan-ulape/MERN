@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom"; // ✅ Import Link from React Router
 
 function Navbar() {
   return (
@@ -17,7 +18,11 @@ function Navbar() {
         <li><a href="#courses">Courses</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <button className="apply-btn">Apply Now</button>
+
+      {/* ✅ Apply Now button redirects to /apply page */}
+      <Link to="/apply" style={{ textDecoration: "none" }}>
+        <button className="apply-btn">Apply Now</button>
+      </Link>
     </nav>
   );
 }
