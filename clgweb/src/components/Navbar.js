@@ -1,26 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { Link } from "react-router-dom"; // ✅ Import Link from React Router
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <a href="#home" className="logo">
+      <Link to="/" className="logo">
         <img 
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLrHbxrzDTwiOlGkCNOLuMuQD5pu9t4SqTLw&s" 
           alt="College Logo" 
         />
         <h3>DYPCET</h3>
-      </a>
+      </Link>
       <ul className="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#courses">Courses</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About Us</Link></li>
+        <li><Link to="/courses">Courses</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
-
-      {/* ✅ Apply Now button redirects to /apply page */}
-      <Link to="/apply" style={{ textDecoration: "none" }}>
+      <Link to="/apply">
         <button className="apply-btn">Apply Now</button>
       </Link>
     </nav>
