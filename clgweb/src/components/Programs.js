@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Programs.css";
 
 function Programs() {
@@ -6,52 +7,53 @@ function Programs() {
     <div className="programs">
       <h2>Our Departments</h2>
       <div className="program-grid">
-        <div className="program-card">
+        <Link to="/departments/computer-science" className="program-card">
           <img 
             src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/Alumni-Meet-2-scaled.jpg" 
-            alt="Computer Science" 
+            alt="Computer Science"
           />
           <h3>Computer Science</h3>
-        </div>
+        </Link>
 
-        <div className="program-card">
+        <Link to="/departments/mechanical" className="program-card">
           <img 
             src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/Industry-Visit-to-Kasturi-Foundry.jpg" 
-            alt="Mechanical" 
+            alt="Mechanical"
           />
-          <h3>Mechanical Engineering</h3>
-        </div>
+          <h3>Mechanical</h3>
+        </Link>
 
-        <div className="program-card">
+        <Link to="/departments/electrical" className="program-card">
           <img 
             src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/3-1-1-1-scaled.jpg" 
             alt="Electrical"
           />
-          <h3>Electrical Engineering</h3>
-        </div>
+          <h3>Electrical</h3>
+        </Link>
 
-        <div className="program-card">
+        <Link to="/departments/chemical" className="program-card">
           <img 
-            src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/IMG-20250313-WA0026.jpg" 
-            alt="Chemical" 
+            src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/Industry-Visit-to-Kasturi-Foundry.jpg" 
+            alt="Chemical"
           />
-          <h3>Chemical Engineering</h3>
-        </div>
+          <h3>Chemical</h3>
+        </Link>
 
-        <div className="program-card">
+        <Link to="/departments/architecture" className="program-card">
           <img 
-            src="https://doak.dypgroup.edu.in/wp-content/uploads/2020/08/slide-5.jpg" 
-            alt="Architecture" 
+            src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/Industry-Visit-to-Kasturi-Foundry.jpg" 
+            alt="Architecture"
           />
           <h3>Architecture</h3>
-        </div>
-        <div className="program-card">
-          <img 
-            src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/civil1-scaled.jpg" 
-            alt="Civil" 
+        </Link>
+
+        <Link to="/departments/civil" className="program-card">
+          <img
+            src="https://coek.dypgroup.edu.in/wp-content/uploads/2017/06/your-civil-image.jpg"
+            alt="Civil"
           />
-          <h3>Civil Engineering </h3>
-        </div>
+          <h3>Civil</h3>
+        </Link>
       </div>
     </div>
   );
